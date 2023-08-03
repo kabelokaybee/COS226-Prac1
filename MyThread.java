@@ -11,7 +11,6 @@ class MyThread extends Thread {
         {
             array[j++] = arr[i];
         }
-
     }
     public void run()
     {
@@ -29,8 +28,6 @@ class MyThread extends Thread {
             if(j == array[i])
             {
                 System.out.println(this.getName() + "["+n+"-"+m+"]:"+array[i]);
-                
-                
             }
         }
     }
