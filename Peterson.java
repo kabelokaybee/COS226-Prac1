@@ -20,5 +20,4 @@ class Peterson implements Lock
         int i = Integer.parseInt(Thread.currentThread().getName().substring(7));
         flag[i] = false;
     }
-    
 }
