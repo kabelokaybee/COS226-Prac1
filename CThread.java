@@ -1,4 +1,5 @@
 public class CThread extends Thread {
+    
     public int [] array;
     public Counter counter;
     public Peterson lock;
